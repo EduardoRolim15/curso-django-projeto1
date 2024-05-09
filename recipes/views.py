@@ -7,7 +7,7 @@ def home(request):
 
 
 def contato(request):
-    return HttpResponse('CONTATO')
+    return render(request, 'me-apague/home.html')
 
 
 def sobre(request):
