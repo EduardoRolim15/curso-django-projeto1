@@ -6,9 +6,3 @@ def home(request):
     return render(request, 'Recipes/home.html', context={'name' : 'Eduardo Rolim'})
 
 
-def contato(request):
-    return render(request, 'me-apague/home.html')
-
-
-def sobre(request):
-    return HttpResponse('SOBRE')
